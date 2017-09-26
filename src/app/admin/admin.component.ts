@@ -16,8 +16,8 @@ export class AdminComponent implements OnInit {
   }
 
   submitForm(title: string, artist: string, description: string, year: number) {
-    var newAlbum: Album = new Album(title, artist, description, year);
-    this.albumService.addAlbum(newAlbum)
+    const newAlbum: Album = new Album(title, artist, description, year);
+    this.albumService.addAlbum(newAlbum);
     console.log(newAlbum);
   }
 
