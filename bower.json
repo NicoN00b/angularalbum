@@ -6,7 +6,7 @@
     "nr <nicholas.raethke@gmail.com>"
   ],
   "license": "MIT",
-  "homepage": "",
+  "homepage": "https://github.com/nicholasraethke/angularalbum",
   "ignore": [
     "**/.*",
     "node_modules",
